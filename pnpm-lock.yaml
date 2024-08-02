@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      luxon:
+        specifier: ^3.4.4
+        version: 3.4.4
     devDependencies:
       '@swc-node/register':
         specifier: ^1.10.9
@@ -190,6 +194,10 @@ packages:
       supports-color:
         optional: true
 
+  luxon@3.4.4:
+    resolution: {integrity: sha512-zobTr7akeGHnv7eBOXcRgMeCP6+uyYsczwmeRCauvpvaAltgNyTbLH/+VaEAPUeWBT+1GuNmz4wC/6jtQzbbVA==}
+    engines: {node: '>=12'}
+
   ms@2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
 
@@ -364,6 +372,8 @@ snapshots:
   debug@4.3.6:
     dependencies:
       ms: 2.1.2
+
+  luxon@3.4.4: {}
 
   ms@2.1.2: {}
 
