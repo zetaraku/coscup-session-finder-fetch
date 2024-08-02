@@ -11,7 +11,8 @@
   "license": "MIT",
   "devDependencies": {
     "@swc-node/register": "^1.10.9",
-    "@types/luxon": "^3.4.2"
+    "@types/luxon": "^3.4.2",
+    "@types/node": "^22.1.0"
   },
   "dependencies": {
     "luxon": "^3.4.4"
