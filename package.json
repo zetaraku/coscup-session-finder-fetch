@@ -10,7 +10,8 @@
   "author": "Raku Zeta <zetaraku@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@swc-node/register": "^1.10.9"
+    "@swc-node/register": "^1.10.9",
+    "@types/luxon": "^3.4.2"
   },
   "dependencies": {
     "luxon": "^3.4.4"
