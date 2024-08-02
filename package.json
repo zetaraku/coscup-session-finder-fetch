@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Raku Zeta <zetaraku@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@swc-node/register": "^1.10.9"
+  }
 }
