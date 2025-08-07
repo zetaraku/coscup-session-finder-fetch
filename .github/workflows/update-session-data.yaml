@@ -9,8 +9,8 @@ permissions:
   id-token: write
 
 env:
-  COSCUP_YEAR: '2024'
-  COSCUP_DAYS: '["2024-08-03","2024-08-04"]'
+  COSCUP_YEAR: '2025'
+  COSCUP_DAYS: '["2025-08-09","2025-08-10"]'
   COSCUP_TIMEZONE: '+08:00'
 
 jobs:
