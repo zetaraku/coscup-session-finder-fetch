@@ -81,7 +81,7 @@ export function makeData(rawData: RawData): Data {
       departmentIds: [session.type],
       courseType: session.tags.includes('Prime') ? 'REQUIRED' : 'ELECTIVE',
       // Extra properties:
-      classRooms: [session.room],
+      classRooms: [rawData.rooms.find((room) => room.id === session.room)!.zh.name],
       languages: [session.language],
       tags: session.tags,
       interval: interval.toISO(),
